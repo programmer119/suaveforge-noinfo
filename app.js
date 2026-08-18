@@ -40,7 +40,7 @@
       "trust.autoTitle": "자동화", "trust.autoText": "반복 작업을 실행 가능한 흐름으로 전환", "trust.rebuildTitle": "재구축", "trust.rebuildText": "소스가 없는 프로그램도 새 코드로 개발", "trust.realTitle": "실제 화면", "trust.realText": "작업 화면과 구현 범위를 함께 공개", "trust.monthTitle": "3개월", "trust.monthText": "실제 운영까지 이어지는 품질보증",
       "cases.title1": "말보다,", "cases.title2": "화면으로 보시는 게 빠릅니다.", "demos.title1": "궁금한 건,", "demos.title2": "직접 열어보는 편이 빠릅니다.", "demos.lead": "브라우저에서 확인할 수 있는 작업 화면입니다.",
       "start.line1": "잘 짜인 기획서가 없어도", "start.line2": "함께 정리하며 시작할 수 있고,", "start.line3": "소스가 없는 프로그램도", "start.line4": "새 코드로 다시 만들 수 있습니다.", "project.screen": "프로젝트 화면", "project.detail": "상세 보기",
-      "search.label": "프로젝트 검색", "search.placeholder": "제목, 기술 스택, 기능을 검색하세요", "search.clear": "검색어 지우기", "search.empty": "일치하는 프로젝트가 없습니다.", "search.result": "상세 보기", "search.demo": "라이브 데모"
+      "search.label": "프로젝트 검색", "search.header": "프로젝트 검색", "search.placeholder": "프로젝트명 또는 기술 스택을 입력하세요", "search.clear": "검색어 지우기", "search.empty": "일치하는 프로젝트가 없습니다.", "search.result": "상세 보기", "search.demo": "라이브 데모", "search.globalTitle": "필요한 작업을 바로 찾으세요", "search.quick": "빠른 검색", "search.featured": "추천 프로젝트", "search.move": "결과 이동", "search.open": "상세 열기", "search.close": "검색 닫기", "search.closeShort": "닫기"
     },
     en: {
       "nav.cases": "Case Studies", "nav.demos": "Live Demos", "nav.portfolio": "All Work", "nav.process": "Process", "nav.team": "Team",
@@ -49,7 +49,7 @@
       "trust.autoTitle": "Automation", "trust.autoText": "Turn repeat work into executable flows", "trust.rebuildTitle": "Rebuild", "trust.rebuildText": "Recreate source-less software in new code", "trust.realTitle": "Real Screens", "trust.realText": "Show the actual UI and implementation scope", "trust.monthTitle": "3 Months", "trust.monthText": "Warranty through real operation",
       "cases.title1": "Less talk.", "cases.title2": "Screens make it faster.", "demos.title1": "Curious?", "demos.title2": "Open the work and see it.", "demos.lead": "Live work screens you can check in the browser.",
       "start.line1": "Even without a polished brief,", "start.line2": "we can shape the work together,", "start.line3": "and source-less software", "start.line4": "can be rebuilt as new code.", "project.screen": "project screen", "project.detail": "details",
-      "search.label": "Find work", "search.placeholder": "Search titles, technologies, or features", "search.clear": "Clear search", "search.empty": "No matching projects found.", "search.result": "View details", "search.demo": "Live demo"
+      "search.label": "Project search", "search.header": "Search projects", "search.placeholder": "Search project names or technologies", "search.clear": "Clear search", "search.empty": "No matching projects found.", "search.result": "View details", "search.demo": "Live demo", "search.globalTitle": "Find the right work instantly", "search.quick": "Quick search", "search.featured": "Featured projects", "search.move": "Move", "search.open": "Open details", "search.close": "Close search", "search.closeShort": "Close"
     },
     ja: {
       "nav.cases": "代表事例", "nav.demos": "ライブデモ", "nav.portfolio": "制作実績", "nav.process": "進行方式", "nav.team": "チーム",
@@ -58,7 +58,7 @@
       "trust.autoTitle": "自動化", "trust.autoText": "反復作業を実行可能な流れに変換", "trust.rebuildTitle": "再構築", "trust.rebuildText": "ソースのないソフトも新規コードで開発", "trust.realTitle": "実画面", "trust.realText": "画面と実装範囲を明確に公開", "trust.monthTitle": "3か月", "trust.monthText": "運用まで見据えた品質保証",
       "cases.title1": "説明より、", "cases.title2": "画面で見る方が早いです。", "demos.title1": "気になるなら、", "demos.title2": "直接開くのが一番です。", "demos.lead": "ブラウザで確認できる作業画面です。",
       "start.line1": "整った企画書がなくても", "start.line2": "一緒に整理して始められます。", "start.line3": "ソースのないプログラムも", "start.line4": "新しいコードで作り直せます。", "project.screen": "プロジェクト画面", "project.detail": "詳細",
-      "search.label": "プロジェクト検索", "search.placeholder": "タイトル、技術、機能を検索", "search.clear": "検索をクリア", "search.empty": "該当するプロジェクトがありません。", "search.result": "詳細を見る", "search.demo": "ライブデモ"
+      "search.label": "プロジェクト検索", "search.header": "プロジェクト検索", "search.placeholder": "プロジェクト名または技術を検索", "search.clear": "検索をクリア", "search.empty": "該当するプロジェクトがありません。", "search.result": "詳細を見る", "search.demo": "ライブデモ", "search.globalTitle": "必要な実績をすぐに探せます", "search.quick": "クイック検索", "search.featured": "おすすめプロジェクト", "search.move": "結果を移動", "search.open": "詳細を開く", "search.close": "検索を閉じる", "search.closeShort": "閉じる"
     },
     es: {
       "nav.cases": "Casos", "nav.demos": "Demos", "nav.portfolio": "Trabajos", "nav.process": "Proceso", "nav.team": "Equipo",
@@ -67,7 +67,7 @@
       "trust.autoTitle": "Automatización", "trust.autoText": "Convertimos tareas repetitivas en flujos ejecutables", "trust.rebuildTitle": "Reconstrucción", "trust.rebuildText": "Recreamos software sin código fuente", "trust.realTitle": "Pantallas reales", "trust.realText": "Mostramos la interfaz y el alcance real", "trust.monthTitle": "3 meses", "trust.monthText": "Garantía hasta operación real",
       "cases.title1": "Menos palabras.", "cases.title2": "Las pantallas lo explican mejor.", "demos.title1": "¿Tienes curiosidad?", "demos.title2": "Abre el trabajo y míralo.", "demos.lead": "Pantallas de trabajo que puedes revisar en el navegador.",
       "start.line1": "Aunque no tengas un brief perfecto,", "start.line2": "podemos ordenar el proyecto contigo,", "start.line3": "y el software sin fuente", "start.line4": "puede renacer como código nuevo.", "project.screen": "pantalla del proyecto", "project.detail": "detalles",
-      "search.label": "Buscar proyectos", "search.placeholder": "Buscar títulos, tecnologías o funciones", "search.clear": "Limpiar búsqueda", "search.empty": "No se encontraron proyectos.", "search.result": "Ver detalles", "search.demo": "Demo en vivo"
+      "search.label": "Buscar proyectos", "search.header": "Buscar proyectos", "search.placeholder": "Buscar proyectos o tecnologías", "search.clear": "Limpiar búsqueda", "search.empty": "No se encontraron proyectos.", "search.result": "Ver detalles", "search.demo": "Demo en vivo", "search.globalTitle": "Encuentra el trabajo adecuado al instante", "search.quick": "Búsqueda rápida", "search.featured": "Proyectos destacados", "search.move": "Mover", "search.open": "Abrir detalles", "search.close": "Cerrar búsqueda", "search.closeShort": "Cerrar"
     }
   };
   const languageMeta = {
@@ -81,6 +81,11 @@
   const updateStaticLanguage = () => {
     qsa("[data-i18n]").forEach((node) => { node.textContent = t(node.dataset.i18n); });
     qsa("[data-i18n-html]").forEach((node) => { node.innerHTML = t(node.dataset.i18nHtml); });
+    qsa("[data-i18n-aria-label]").forEach((node) => {
+      const label = t(node.dataset.i18nAriaLabel);
+      node.setAttribute("aria-label", label);
+      node.setAttribute("title", label);
+    });
   };
   const setLanguageMenu = (open) => {
     languageSwitcher?.classList.toggle("is-open", open);
@@ -228,6 +233,14 @@
   const projectSearchClear = qs("[data-project-search-clear]");
   const projectSearchSummary = qs("[data-project-search-summary]");
   const projectSearchResults = qs("[data-project-search-results]");
+  const globalSearchDialog = qs("[data-global-search-dialog]");
+  const globalSearchInput = qs("[data-global-search-input]", globalSearchDialog);
+  const globalSearchResults = qs("[data-global-search-results]", globalSearchDialog);
+  const globalSearchSummary = qs("[data-global-search-summary]", globalSearchDialog);
+  const globalSearchQuick = qs("[data-global-search-quick]", globalSearchDialog);
+  const globalSearchTriggers = qsa("[data-global-search-open]");
+  const shortcutLabel = /Mac|iPhone|iPad/.test(navigator.platform) ? "⌘ K" : "Ctrl K";
+  qsa("[data-search-shortcut]").forEach((node) => { node.textContent = shortcutLabel; });
   const normalizeSearch = (value) => String(value || "")
     .normalize("NFKC")
     .toLocaleLowerCase()
@@ -240,6 +253,7 @@
       project.kind, project.stack, project.features, project.scope, project.result
     ].flat(Infinity).filter(Boolean).join(" "))
   }));
+  const featuredSearchProjects = projects.filter((project) => project.featured).sort((a, b) => a.featured - b.featured).slice(0, 6);
   let projectSearchFrame = 0;
   let currentSearchResults = projects;
 
@@ -250,16 +264,64 @@
     es: `${count} proyectos`
   }[currentLanguage] || `${count} PROJECTS`);
 
+  const filterProjects = (value) => {
+    const query = normalizeSearch(value);
+    const terms = query ? query.split(/\s+/).filter(Boolean) : [];
+    return {
+      terms,
+      results: terms.length
+        ? projectSearchIndex.filter(({ text }) => terms.every((term) => text.includes(term))).map(({ project }) => project)
+        : projects
+    };
+  };
+  const highlightSearch = (value, terms) => {
+    const source = String(value || "");
+    if (!terms.length) return escapeHtml(source);
+    const escapedTerms = terms.map((term) => term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).filter(Boolean);
+    if (!escapedTerms.length) return escapeHtml(source);
+    const matcher = new RegExp(`(${escapedTerms.join("|")})`, "giu");
+    return source.split(matcher).map((part, index) => index % 2 ? `<mark>${escapeHtml(part)}</mark>` : escapeHtml(part)).join("");
+  };
+  const renderInlineSearchResults = (results, terms) => {
+    if (!projectSearchResults) return;
+    if (!results.length) {
+      projectSearchResults.innerHTML = `<p class="portfolio-search-empty">${escapeHtml(t("search.empty"))}</p>`;
+      return;
+    }
+    projectSearchResults.innerHTML = results.map((project) => `
+      <article class="portfolio-search-result">
+        <button type="button" data-open-project="${escapeHtml(project.id)}" aria-label="${escapeHtml(project.title)} ${escapeHtml(t("project.detail"))}">
+          <span class="portfolio-search-result-meta"><i>${highlightSearch(project.kind, terms)}</i><b>${escapeHtml(project.date || "")}</b></span>
+          <strong>${highlightSearch(project.title, terms)}</strong>
+          <small>${highlightSearch((project.stack || []).slice(0, 5).join(" · "), terms)}</small>
+          <em>${escapeHtml(t("search.result"))} <span aria-hidden="true">↗</span></em>
+        </button>
+        ${project.url ? `<a href="${escapeHtml(project.url)}" target="_blank" rel="noopener">${escapeHtml(t("search.demo"))} <span aria-hidden="true">↗</span></a>` : ""}
+      </article>`).join("");
+  };
+  const renderGlobalSearchResults = (results, terms) => {
+    if (!globalSearchResults) return;
+    if (!results.length) {
+      globalSearchResults.innerHTML = `<p class="global-search-empty">${escapeHtml(t("search.empty"))}</p>`;
+      return;
+    }
+    globalSearchResults.innerHTML = results.map((project, index) => `
+      <article class="global-search-result">
+        <button type="button" data-open-project="${escapeHtml(project.id)}" ${index === 0 ? "data-search-first=\"\"" : ""}>
+          <span><i>${highlightSearch(project.kind, terms)}</i><strong>${highlightSearch(project.title, terms)}</strong><small>${highlightSearch((project.stack || []).slice(0, 4).join(" · "), terms)}</small></span>
+          <em>${escapeHtml(t("search.result"))} <b aria-hidden="true">↗</b></em>
+        </button>
+        ${project.url ? `<a aria-label="${escapeHtml(project.title)} ${escapeHtml(t("search.demo"))}" href="${escapeHtml(project.url)}" target="_blank" rel="noopener"><span>${escapeHtml(t("search.demo"))}</span><b aria-hidden="true">↗</b></a>` : ""}
+      </article>`).join("");
+  };
+
   function refreshProjectSearch() {
     if (!projectSearchInput || !projectSearchResults || !projectSearchSummary) return;
     projectSearchInput.placeholder = t("search.placeholder");
     projectSearchClear?.setAttribute("aria-label", t("search.clear"));
     projectSearchClear?.setAttribute("title", t("search.clear"));
-    const query = normalizeSearch(projectSearchInput.value);
-    const terms = query ? query.split(/\s+/).filter(Boolean) : [];
-    currentSearchResults = terms.length
-      ? projectSearchIndex.filter(({ text }) => terms.every((term) => text.includes(term))).map(({ project }) => project)
-      : projects;
+    const { terms, results } = filterProjects(projectSearchInput.value);
+    currentSearchResults = results;
     const searching = terms.length > 0;
     portfolioSection?.classList.toggle("is-searching", searching);
     portfolioTrack?.setAttribute("aria-hidden", String(searching));
@@ -270,31 +332,38 @@
       projectSearchResults.replaceChildren();
       return;
     }
-    if (!currentSearchResults.length) {
-      projectSearchResults.innerHTML = `<p class="portfolio-search-empty">${escapeHtml(t("search.empty"))}</p>`;
-      return;
-    }
-    projectSearchResults.innerHTML = currentSearchResults.map((project) => `
-      <article class="portfolio-search-result">
-        <button type="button" data-open-project="${escapeHtml(project.id)}" aria-label="${escapeHtml(project.title)} ${escapeHtml(t("project.detail"))}">
-          <span class="portfolio-search-result-meta"><i>${escapeHtml(project.kind)}</i><b>${escapeHtml(project.date || "")}</b></span>
-          <strong>${escapeHtml(project.title)}</strong>
-          <small>${escapeHtml((project.stack || []).slice(0, 5).join(" · "))}</small>
-          <em>${escapeHtml(t("search.result"))} <span aria-hidden="true">↗</span></em>
-        </button>
-        ${project.url ? `<a href="${escapeHtml(project.url)}" target="_blank" rel="noopener">${escapeHtml(t("search.demo"))} <span aria-hidden="true">↗</span></a>` : ""}
-      </article>`).join("");
+    renderInlineSearchResults(currentSearchResults, terms);
+  }
+
+  function refreshGlobalSearch() {
+    if (!globalSearchInput || !globalSearchResults || !globalSearchSummary) return;
+    globalSearchInput.placeholder = t("search.placeholder");
+    const { terms, results } = filterProjects(globalSearchInput.value);
+    const searching = terms.length > 0;
+    const visibleResults = searching ? results : featuredSearchProjects;
+    globalSearchQuick?.toggleAttribute("hidden", searching);
+    globalSearchSummary.textContent = searching ? formatProjectCount(results.length) : t("search.featured");
+    renderGlobalSearchResults(visibleResults, terms);
+  }
+
+  const syncSearchQuery = (value, source) => {
+    if (source !== projectSearchInput && projectSearchInput) projectSearchInput.value = value;
+    if (source !== globalSearchInput && globalSearchInput) globalSearchInput.value = value;
+    refreshProjectSearch();
+    refreshGlobalSearch();
+  };
+  const scheduleSearch = (value, source) => {
+    cancelAnimationFrame(projectSearchFrame);
+    projectSearchFrame = requestAnimationFrame(() => syncSearchQuery(value, source));
   }
 
   projectSearchInput?.addEventListener("input", () => {
-    cancelAnimationFrame(projectSearchFrame);
-    projectSearchFrame = requestAnimationFrame(refreshProjectSearch);
+    scheduleSearch(projectSearchInput.value, projectSearchInput);
   });
   projectSearchInput?.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && projectSearchInput.value) {
       event.stopPropagation();
-      projectSearchInput.value = "";
-      refreshProjectSearch();
+      syncSearchQuery("", projectSearchInput);
     } else if (event.key === "Enter" && currentSearchResults.length) {
       event.preventDefault();
       projectSearchResults?.querySelector("[data-open-project]")?.click();
@@ -302,9 +371,59 @@
   });
   projectSearchClear?.addEventListener("click", () => {
     if (!projectSearchInput) return;
-    projectSearchInput.value = "";
-    refreshProjectSearch();
+    syncSearchQuery("", projectSearchInput);
     projectSearchInput.focus();
+  });
+  globalSearchInput?.addEventListener("input", () => scheduleSearch(globalSearchInput.value, globalSearchInput));
+
+  const openGlobalSearch = () => {
+    if (!globalSearchDialog || !globalSearchInput) return;
+    setMenu(false);
+    setLanguageMenu(false);
+    if (!globalSearchDialog.open) globalSearchDialog.showModal();
+    document.body.classList.add("global-search-open");
+    refreshGlobalSearch();
+    requestAnimationFrame(() => {
+      globalSearchInput.focus();
+      globalSearchInput.select();
+    });
+  };
+  globalSearchTriggers.forEach((trigger) => trigger.addEventListener("click", openGlobalSearch));
+  qs("[data-global-search-close]", globalSearchDialog)?.addEventListener("click", () => globalSearchDialog.close());
+  qsa("[data-search-suggestion]", globalSearchDialog).forEach((button) => button.addEventListener("click", () => {
+    if (!globalSearchInput) return;
+    syncSearchQuery(button.dataset.searchSuggestion || "", button);
+    globalSearchInput.focus();
+  }));
+  globalSearchDialog?.addEventListener("close", () => document.body.classList.remove("global-search-open"));
+  globalSearchDialog?.addEventListener("click", (event) => {
+    if (event.target === globalSearchDialog) globalSearchDialog.close();
+    if (event.target.closest("[data-open-project]")) globalSearchDialog.close();
+  });
+  globalSearchDialog?.addEventListener("keydown", (event) => {
+    const resultButtons = qsa("[data-open-project]", globalSearchResults);
+    if (event.key === "Enter" && event.target === globalSearchInput && resultButtons.length) {
+      event.preventDefault();
+      resultButtons[0].click();
+      return;
+    }
+    if (!resultButtons.length || !["ArrowDown", "ArrowUp"].includes(event.key)) return;
+    event.preventDefault();
+    const currentIndex = resultButtons.indexOf(document.activeElement);
+    const nextIndex = event.key === "ArrowDown"
+      ? Math.min(currentIndex + 1, resultButtons.length - 1)
+      : Math.max(currentIndex < 0 ? resultButtons.length - 1 : currentIndex - 1, 0);
+    resultButtons[nextIndex].focus();
+  });
+  document.addEventListener("keydown", (event) => {
+    const target = event.target;
+    const isEditing = target instanceof HTMLElement && (target.matches("input, textarea, select") || target.isContentEditable);
+    const commandSearch = (event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k";
+    const slashSearch = event.key === "/" && !isEditing && !event.ctrlKey && !event.metaKey && !event.altKey;
+    if (!commandSearch && !slashSearch) return;
+    if (qs("[data-project-dialog]")?.open) return;
+    event.preventDefault();
+    openGlobalSearch();
   });
 
   if (portfolioTrack && !portfolioReady) {

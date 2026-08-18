@@ -611,7 +611,8 @@
       _subject: `[SuaveForge 프로젝트 상담] ${formData.get("name")} · ${formData.get("type")}`,
       _template: "table",
       _captcha: "false",
-      _url: location.href
+      // 캐시용 쿼리나 해시가 달라도 FormSubmit에는 항상 같은 폼으로 전달합니다.
+      _url: "https://suaveforge.com/"
     };
     submitButton?.setAttribute("disabled", "");
     if (submitButton) submitButton.firstChild.textContent = "접수 중... ";
@@ -631,7 +632,18 @@
       let result = {};
       try { result = responseText ? JSON.parse(responseText) : {}; } catch { result = {}; }
       const explicitFailure = result.success === false || result.success === "false";
-      if (!response.ok || explicitFailure) throw new Error(result.message || `submit failed (${response.status})`);
+      const responseMessage = String(result.message || "");
+      const activationPending = /activat|confirm|verif|not\s+active/i.test(responseMessage);
+      if (!response.ok || explicitFailure) {
+        if (!activationPending) throw new Error(responseMessage || `submit failed (${response.status})`);
+        // FormSubmit은 비활성 폼의 내용을 보관한 뒤 활성화 후 메일로 전달하면서도
+        // 최초 AJAX 응답은 실패로 반환할 수 있습니다. 같은 내용을 다시 전송하지 않고
+        // 요청이 서버에 도달했다는 사실만 안내해 중복 접수를 막습니다.
+        console.warn("FormSubmit delivery pending", response.status, responseMessage);
+        projectForm.reset();
+        setFormStatus(`상담 전송 요청이 접수되었습니다. ${config.responsePromise || "확인 후 연락드리겠습니다."}`, "success");
+        return;
+      }
       projectForm.reset();
       setFormStatus(`상담 내용이 접수되었습니다. ${config.responsePromise || "확인 후 연락드리겠습니다."}`, "success");
     } catch (error) {

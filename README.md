@@ -1,4 +1,4 @@
-# SuaveForge Homepage v6.4
+# SuaveForge No-Contact Homepage
 
 thoughtbot의 결과 중심 사례 구조와 Work & Co의 대형 제품 화면·편집 리듬을 참고해, SuaveForge의 실제 구현 자료와 5인 책임 구조를 중심으로 재구성한 정적 홈페이지입니다.
 
@@ -28,28 +28,11 @@ http://localhost:8080
 - 5명 전원의 역할과 관련 구현 영역 연결
 - 요구사항 정리부터 자동화 검증, 납품·인계와 3개월 품질보증까지 한 구간에서 안내
 - 전체 프로젝트 데이터를 `data/projects.js`로 분리
-- 외부 메일 앱을 열지 않고 사이트에서 직접 접수하는 AJAX 문의 폼 추가
-- `?noinfo=1` 연락처 숨김 기능 유지
+- 공개 연락처와 문의 폼을 포함하지 않는 별도 배포본
 
-## 문의 폼 활성화
+## 공개 정보 원칙
 
-문의 폼은 기본적으로 아래 FormSubmit AJAX 주소를 사용합니다.
-
-```text
-https://formsubmit.co/ajax/programmer119@gmail.com
-```
-
-설정 파일:
-
-```text
-config.js
-```
-
-처음 실제 문의를 전송하면 `programmer119@gmail.com`으로 FormSubmit 확인 메일이 옵니다. 메일 안의 활성화 링크를 한 번 눌러야 이후 문의가 정상 전달됩니다.
-
-확인 전에도 화면과 입력 검증은 동작하지만, 실제 메일 전달을 위해서는 최초 1회 활성화가 필요합니다.
-
-나중에 Google Apps Script, 자체 API 또는 다른 폼 서비스로 변경할 경우 `config.js`의 `contactEndpoint`만 교체하면 됩니다. 전송 실패 시 사용자가 문의 내용을 복사할 수 있는 대체 기능도 포함되어 있습니다.
+이 저장소는 연락처가 표시되지 않는 외부 포트폴리오용 배포본입니다. 연락처와 문의 전송 설정을 추가하지 않습니다.
 
 ## 프로젝트 수정
 
@@ -69,21 +52,9 @@ assets/portfolio/
 
 GitHub Pages 저장소 루트에 파일 전체를 올리면 됩니다.
 
-- `CNAME`: `suaveforge.com`
+- `CNAME`: `noinfo.suaveforge.com`
 - `.nojekyll`: 유지
 - 정적 자산은 모두 상대경로 사용
-
-## 연락처
-
-- `programmer119@gmail.com`
-- `010-9966-7177`
-
-
-## v6.1 문의 폼 수정
-
-- `naver.com`처럼 프로토콜이 없는 참고 링크는 자동으로 `https://naver.com`으로 정규화합니다.
-- FormSubmit 요청을 JSON이 아닌 일반 폼 인코딩으로 변경해, 메일은 전송됐지만 브라우저가 실패로 판정하던 CORS 문제를 줄였습니다.
-- 네트워크 응답만 확인하지 못한 경우 실제 전송 실패로 단정하지 않고 메일함 확인 안내를 표시합니다.
 
 ## 브라우저·홈 화면 아이콘
 

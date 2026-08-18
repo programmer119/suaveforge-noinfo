@@ -23,8 +23,12 @@ window.SF_PROJECTS = [
       "React",
       "JavaScript",
       "REST API",
+      "API Server",
+      "Database",
+      "Redis",
       "Android"
     ],
+    "capabilities": ["frontend", "client", "backend", "database"],
     "features": [
       "조건 기반 추천·인연 신청·매칭·대화",
       "사진 검수·회원·신고·차단·라운지 운영",
@@ -55,10 +59,13 @@ window.SF_PROJECTS = [
     "stack": [
       "JavaScript",
       "HTML/CSS",
+      "REST API",
+      "API Server",
       "Windows",
       "Sunshine",
       "Moonlight"
     ],
+    "capabilities": ["frontend", "client", "backend"],
     "features": [
       "사용 가능 좌석 최적 자동 배정",
       "하이브리드·원격 전용·일반 좌석 정책",
@@ -94,6 +101,7 @@ window.SF_PROJECTS = [
       "Linux",
       "Nginx"
     ],
+    "capabilities": ["frontend", "client", "backend"],
     "features": [
       "회원 선택부터 상담사 웹 단말 수신까지 연결",
       "Asterisk·AMI·WebSocket·SIP 통합 관제",
@@ -129,6 +137,7 @@ window.SF_PROJECTS = [
       "JWT",
       "Docker"
     ],
+    "capabilities": ["frontend", "backend", "database", "devops"],
     "features": [
       "협력사 주문·검사·키트 식별자 매핑",
       "접수부터 완료까지 6단계 상태관리",
@@ -159,10 +168,16 @@ window.SF_PROJECTS = [
     "stack": [
       "JavaScript",
       "HTML/CSS",
+      "Python",
+      "FastAPI",
+      "REST API",
+      "API Server",
+      "Database",
       "XLSX",
       "JSON",
       "Nginx"
     ],
+    "capabilities": ["frontend", "backend", "database"],
     "features": [
       "태블릿·모바일·PC 반응형 고객 설문",
       "지점·디자이너·기간별 검색과 XLSX 내보내기",
@@ -209,6 +224,7 @@ window.SF_PROJECTS = [
       "PyInstaller",
       "NSIS"
     ],
+    "capabilities": ["client", "database", "ai"],
     "features": [
       "지역·키워드 순환 콘텐츠 생성",
       "번호판·얼굴 자동 모자이크와 수동 검수",
@@ -248,6 +264,7 @@ window.SF_PROJECTS = [
       "DICOM",
       "Inno Setup"
     ],
+    "capabilities": ["client"],
     "features": [
       "Axial·Sagittal·Coronal 단면 동기화",
       "HU·거리·ROI·각도 측정",
@@ -292,6 +309,7 @@ window.SF_PROJECTS = [
       "License Filtering",
       "CSV Metadata"
     ],
+    "capabilities": ["frontend", "backend", "ai"],
     "features": [
       "국가·문화 키워드와 목표 수량 설정",
       "검색 제공처 상태와 라이선스 확인",
@@ -325,8 +343,6 @@ window.SF_PROJECTS = [
     ],
     "url": "https://foxpro.suaveforge.com/",
     "stack": [
-      "Visual FoxPro",
-      "Node.js",
       "JavaScript",
       "Vite",
       "PDF.js",
@@ -335,6 +351,8 @@ window.SF_PROJECTS = [
       "GitHub Actions",
       "GitHub Pages"
     ],
+    "plannedStack": ["Visual FoxPro", "Node.js", "로컬 병합 모듈"],
+    "capabilities": ["frontend"],
     "features": [
       "PDF 3개 순서 확인과 병합",
       "고해상도 이미지형 PDF 생성",
@@ -384,6 +402,7 @@ window.SF_PROJECTS = [
       "SVG",
       "JSON"
     ],
+    "capabilities": ["frontend", "backend", "serverless", "devops"],
     "features": [
       "Google Form 응답 자동 처리",
       "원점수·백분위·T점수 계산",
@@ -409,10 +428,10 @@ window.SF_PROJECTS = [
       "React 19",
       "Vite 7",
       "JavaScript",
-      "Go",
-      "Google Apps Script",
-      "Google Sheets"
+      "Google Apps Script"
     ],
+    "plannedStack": ["Google Sheets 운영 연동", "Go API"],
+    "capabilities": ["frontend", "serverless"],
     "features": [
       "사용자 상태 선택과 상품 추천",
       "상품 선택·토출 시나리오",
@@ -436,12 +455,13 @@ window.SF_PROJECTS = [
     "url": "https://programmer119.github.io/ai-saas-pc-stgnn-ai-1/",
     "stack": [
       "TensorFlow.js",
-      "TensorFlow",
+      "Python",
       "PyTorch",
-      "STGNN",
       "JavaScript",
       "HTML/CSS"
     ],
+    "plannedStack": ["학습·검증된 STGNN 모델"],
+    "capabilities": ["frontend", "ai"],
     "features": [
       "가상 농장 감염 시나리오",
       "농장별 위험도와 방역 우선순위",
@@ -463,12 +483,12 @@ window.SF_PROJECTS = [
     ],
     "url": "https://programmer119.github.io/jetpack-compose-ui-mcx-client-android/",
     "stack": [
-      "Kotlin",
-      "Jetpack Compose",
       "HTML",
       "CSS",
       "JavaScript"
     ],
+    "plannedStack": ["Kotlin", "Jetpack Compose", "Android MCX Client"],
+    "capabilities": ["frontend"],
     "features": [
       "PTT 중심 현장 조작",
       "비상 호출과 안전 상태 표시",
@@ -490,13 +510,12 @@ window.SF_PROJECTS = [
     ],
     "url": "https://programmer119.github.io/moafesta-prototype/",
     "stack": [
-      "Flutter",
-      "Laravel",
-      "PHP",
       "HTML",
       "CSS",
       "JavaScript"
     ],
+    "plannedStack": ["Flutter", "Laravel", "PHP", "PG 결제 연동"],
+    "capabilities": ["frontend"],
     "features": [
       "후원 코드 입력",
       "리워드와 참여 현황 조회",
@@ -518,14 +537,12 @@ window.SF_PROJECTS = [
     ],
     "url": "https://programmer119.github.io/python-react-saas-3-7-5/",
     "stack": [
-      "Python",
-      "React",
-      "Node.js",
-      "Sass",
       "HTML",
       "CSS",
       "JavaScript"
     ],
+    "plannedStack": ["Python", "React", "Node.js", "Sass", "SaaS Backend"],
+    "capabilities": ["frontend"],
     "features": [
       "사건·기한 현황 관리",
       "문서 생성·검토 단계",
@@ -548,14 +565,12 @@ window.SF_PROJECTS = [
     ],
     "url": "https://programmer119.github.io/ivr-java-avaya-650-850-2026/",
     "stack": [
-      "Node.js",
-      "React",
       "JavaScript",
-      "TTS",
-      "MRCP",
       "Web Speech API",
       "HTML/CSS"
     ],
+    "plannedStack": ["Java Backend", "MRCP v2", "Avaya EP", "TTS Gateway"],
+    "capabilities": ["frontend"],
     "features": [
       "전화 수신·IVR 시나리오",
       "MRCP·TTS 처리 상태 확인",
@@ -578,13 +593,12 @@ window.SF_PROJECTS = [
     ],
     "url": "https://programmer119.github.io/lms-asap-12-7-x-5/",
     "stack": [
-      "Python",
-      "React",
-      "Node.js",
       "HTML",
       "CSS",
       "JavaScript"
     ],
+    "plannedStack": ["Python", "React", "Node.js", "LMS Backend"],
+    "capabilities": ["frontend"],
     "features": [
       "과정별 수강 현황",
       "학습률·이수 통계",
@@ -606,14 +620,12 @@ window.SF_PROJECTS = [
     ],
     "url": "https://programmer119.github.io/palate-track-prototype-v2/",
     "stack": [
-      "SvelteKit",
-      "Svelte",
-      "Node.js",
-      "MySQL",
       "HTML",
       "CSS",
       "JavaScript"
     ],
+    "plannedStack": ["React Native 또는 Flutter", "Node.js/NestJS API", "PostgreSQL", "S3 호환 스토리지"],
+    "capabilities": ["frontend"],
     "features": [
       "환자 치료 기록",
       "장치 상태와 일정 관리",
@@ -636,11 +648,11 @@ window.SF_PROJECTS = [
     "url": "https://programmer119.github.io/1-crm-db-ga-2-2/",
     "stack": [
       "JavaScript",
-      "Node.js",
-      "MySQL",
       "HTML",
       "CSS"
     ],
+    "plannedStack": ["BigQuery", "GA4", "Salesforce", "Data Pipeline"],
+    "capabilities": ["frontend"],
     "features": [
       "KPI·채널별 광고 성과",
       "캠페인과 고객 데이터 연결",
@@ -666,6 +678,7 @@ window.SF_PROJECTS = [
       "Dart 3",
       "Material Design"
     ],
+    "capabilities": ["frontend", "client"],
     "features": [
       "추천 카드 스와이프",
       "관심사 필터와 매칭",
@@ -691,6 +704,8 @@ window.SF_PROJECTS = [
       "CSS",
       "JavaScript"
     ],
+    "plannedStack": ["Tauri 또는 Electron", "Playwright", "Windows UI Automation", "Node.js/NestJS 또는 Python/FastAPI", "PostgreSQL"],
+    "capabilities": ["frontend"],
     "features": [
       "재고 부족과 발주 우선순위",
       "외부 도매몰 연결과 실패 로그",

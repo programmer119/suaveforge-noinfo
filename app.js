@@ -246,11 +246,53 @@
     .toLocaleLowerCase()
     .replace(/[^\p{L}\p{N}+#.]+/gu, " ")
     .trim();
+  const capabilityAliases = {
+    frontend: ["frontend", "front-end", "front end", "프론트", "프론트엔드", "웹 화면", "사용자 화면", "UI"],
+    client: ["client", "클라이언트", "클라", "native", "네이티브", "desktop", "데스크톱", "PC", "mobile", "모바일", "app", "앱"],
+    backend: ["backend", "back-end", "back end", "백엔드", "server", "서버", "API server", "API 서버"],
+    database: ["database", "DB", "데이터베이스", "디비", "data store", "데이터 저장소", "persistence", "영속성"],
+    serverless: ["serverless", "서버리스", "function", "함수형 백엔드", "backend", "back-end", "back end", "백엔드", "server", "서버"],
+    ai: ["AI", "인공지능", "machine learning", "머신러닝", "ML"],
+    devops: ["DevOps", "데브옵스", "CI/CD", "배포 자동화", "container", "컨테이너"]
+  };
+  const technologyAliasRules = [
+    { matches: ["react", "react 19"], aliases: ["React", "리액트"] },
+    { matches: ["vue.js"], aliases: ["Vue", "Vue.js", "뷰", "뷰JS"] },
+    { matches: ["python"], aliases: ["Python", "파이썬"] },
+    { matches: ["node.js"], aliases: ["Node", "Node.js", "노드", "노드JS"] },
+    { matches: ["java 17"], aliases: ["Java", "자바"] },
+    { matches: ["javascript"], aliases: ["JavaScript", "JS", "자바스크립트"] },
+    { matches: ["spring boot"], aliases: ["Spring", "Spring Boot", "스프링", "스프링부트"] },
+    { matches: ["mariadb"], aliases: ["MariaDB", "마리아DB", "마리아디비"] },
+    { matches: ["sqlite"], aliases: ["SQLite", "에스큐엘라이트"] },
+    { matches: ["redis"], aliases: ["Redis", "레디스", "cache", "캐시"] },
+    { matches: ["flutter"], aliases: ["Flutter", "플러터"] },
+    { matches: ["dart", "dart 3"], aliases: ["Dart", "다트"] },
+    { matches: ["fastapi"], aliases: ["FastAPI", "패스트API", "패스트에이피아이"] },
+    { matches: ["google apps script"], aliases: ["Google Apps Script", "Apps Script", "GAS", "구글 앱스 스크립트"] },
+    { matches: ["tensorflow.js"], aliases: ["TensorFlow.js", "TensorFlow", "텐서플로", "텐서플로JS"] },
+    { matches: ["pytorch"], aliases: ["PyTorch", "파이토치"] },
+    { matches: ["c++"], aliases: ["C++", "CPP", "씨플플"] },
+    { matches: ["html", "html/css"], aliases: ["HTML", "마크업"] },
+    { matches: ["css", "html/css"], aliases: ["CSS", "스타일시트"] },
+    { matches: ["docker"], aliases: ["Docker", "도커", "container", "컨테이너"] },
+    { matches: ["nginx"], aliases: ["Nginx", "엔진엑스", "web server", "웹서버"] },
+    { matches: ["rest api", "api server"], aliases: ["REST", "REST API", "API", "에이피아이"] }
+  ];
+  const expandVerifiedSearchTerms = (project) => {
+    const capabilityTerms = (project.capabilities || []).flatMap((capability) => capabilityAliases[capability] || [capability]);
+    const normalizedStack = (project.stack || []).map(normalizeSearch);
+    const technologyTerms = technologyAliasRules
+      .filter(({ matches }) => matches.some((match) => normalizedStack.includes(normalizeSearch(match))))
+      .flatMap(({ aliases }) => aliases);
+    return [...capabilityTerms, ...technologyTerms];
+  };
   const projectSearchIndex = projects.map((project) => ({
     project,
     text: normalizeSearch([
       project.id, project.title, project.short, project.headline, project.category,
-      project.kind, project.stack, project.features, project.scope, project.result
+      project.kind, project.stack, project.features, project.scope, project.result,
+      expandVerifiedSearchTerms(project)
     ].flat(Infinity).filter(Boolean).join(" "))
   }));
   const featuredSearchProjects = projects.filter((project) => project.featured).sort((a, b) => a.featured - b.featured).slice(0, 6);

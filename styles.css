@@ -3342,3 +3342,231 @@ body { font-size: 16px; line-height: 1.65; }
 .hero-capability-rebuild .motion-focus-chunk {
   color: #fff;
 }
+
+/* Project finder: integrated into ALL WORK without changing its default motion view. */
+.portfolio-search {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: stretch;
+  gap: 0;
+  margin-bottom: 28px;
+  border-top: 1px solid rgba(17,19,24,.2);
+  border-bottom: 1px solid rgba(17,19,24,.2);
+  background: #fff;
+}
+.portfolio-search-field {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 24px;
+  min-height: 82px;
+  padding: 0 24px 0 0;
+}
+.portfolio-search-field > span {
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.portfolio-search-field input {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 22px;
+  font-weight: 760;
+  letter-spacing: 0;
+}
+.portfolio-search-field input::placeholder { color: #979ba2; font-weight: 600; }
+.portfolio-search-field input::-webkit-search-cancel-button { appearance: none; }
+.portfolio-search-field:focus-within { box-shadow: inset 0 -2px 0 var(--accent); }
+.portfolio-search-clear {
+  align-self: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(17,19,24,.2);
+  border-radius: 50%;
+  padding: 0;
+  background: #fff;
+  color: var(--ink);
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+}
+.portfolio-search-clear:hover { border-color: var(--accent); color: var(--accent); }
+.portfolio-search > p {
+  min-width: 150px;
+  display: grid;
+  place-items: center end;
+  margin: 0 0 0 22px;
+  border-left: 1px solid rgba(17,19,24,.14);
+  padding-left: 22px;
+  color: #555b63;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.portfolio-search-results {
+  display: grid;
+  margin-top: -28px;
+  margin-bottom: 48px;
+  border-top: 1px solid rgba(17,19,24,.2);
+}
+.portfolio-search-results[hidden] { display: none; }
+.portfolio-search-result {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  border-bottom: 1px solid rgba(17,19,24,.16);
+  background: #fff;
+  transition: background .16s ease;
+}
+.portfolio-search-result:hover { background: #f7f4ee; }
+.portfolio-search-result > button {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: minmax(190px, .42fr) minmax(0, 1fr) auto;
+  grid-template-areas: "meta title action" "meta stack action";
+  align-items: center;
+  column-gap: 32px;
+  border: 0;
+  padding: 25px 28px 25px 0;
+  background: transparent;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+.portfolio-search-result-meta {
+  grid-area: meta;
+  display: grid;
+  gap: 6px;
+  align-content: center;
+}
+.portfolio-search-result-meta i {
+  color: var(--accent);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 950;
+  letter-spacing: .04em;
+}
+.portfolio-search-result-meta b { color: #777c84; font-size: 11px; }
+.portfolio-search-result strong {
+  grid-area: title;
+  overflow-wrap: anywhere;
+  font-size: 20px;
+  line-height: 1.3;
+}
+.portfolio-search-result small {
+  grid-area: stack;
+  margin-top: 5px;
+  color: #666c74;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.portfolio-search-result em {
+  grid-area: action;
+  color: var(--ink);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+  white-space: nowrap;
+}
+.portfolio-search-result > a {
+  min-width: 142px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  border-left: 1px solid rgba(17,19,24,.14);
+  padding: 0 20px;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 900;
+}
+.portfolio-search-empty {
+  margin: 0;
+  border-bottom: 1px solid rgba(17,19,24,.16);
+  padding: 46px 0;
+  color: #666c74;
+  font-size: 16px;
+}
+.portfolio-v6.is-searching .portfolio-grid { display: none !important; }
+.portfolio-grid { min-height: 660px; }
+.portfolio-grid:not(.is-motion-ready) {
+  display: flex !important;
+  align-items: stretch;
+  gap: 18px;
+}
+.portfolio-grid:not(.is-motion-ready) > .portfolio-card {
+  flex: 0 0 clamp(310px, 27vw, 390px);
+  width: clamp(310px, 27vw, 390px);
+}
+
+/* Continuous motion only consumes compositor time while it is on screen. */
+.live-demo-rail,
+.sf-all-work-track {
+  animation-play-state: paused;
+}
+.sf-all-work-track { will-change: auto; }
+.live-demo-rail.is-motion-active { animation-play-state: running; }
+.portfolio-grid.is-motion-active:not(:hover):not(:focus-within) .sf-all-work-track {
+  animation-play-state: running;
+  will-change: transform;
+}
+.is-page-hidden .live-demo-rail,
+.is-page-hidden .sf-all-work-track,
+.portfolio-v6.is-searching .sf-all-work-track {
+  animation-play-state: paused !important;
+  will-change: auto !important;
+}
+.portfolio-grid .portfolio-card,
+#cases .case-story,
+.live-demo-rail > a {
+  contain: layout paint style;
+}
+
+@media (max-width: 760px) {
+  .portfolio-search { grid-template-columns: minmax(0, 1fr) auto; }
+  .portfolio-search-field {
+    grid-column: 1;
+    grid-template-columns: 1fr;
+    gap: 6px;
+    min-height: 76px;
+    padding-right: 12px;
+  }
+  .portfolio-search-field > span { font-size: 10px; }
+  .portfolio-search-field input { font-size: 18px; }
+  .portfolio-search-clear { grid-column: 2; margin-right: 2px; }
+  .portfolio-search > p {
+    grid-column: 1 / -1;
+    min-height: 40px;
+    place-items: center start;
+    margin: 0;
+    border-top: 1px solid rgba(17,19,24,.1);
+    border-left: 0;
+    padding: 0;
+  }
+  .portfolio-search-result > button {
+    grid-template-columns: 1fr auto;
+    grid-template-areas: "meta action" "title title" "stack stack";
+    gap: 9px 18px;
+    padding: 21px 16px 21px 0;
+  }
+  .portfolio-search-result-meta { display: flex; align-items: center; gap: 10px; }
+  .portfolio-search-result strong { margin-top: 5px; font-size: 18px; }
+  .portfolio-search-result > a { min-width: 54px; padding: 0 14px; font-size: 0; }
+  .portfolio-search-result > a span { font-size: 16px; }
+  .portfolio-grid { min-height: 606px; }
+  .portfolio-grid:not(.is-motion-ready) > .portfolio-card {
+    flex-basis: min(82vw, 350px);
+    width: min(82vw, 350px);
+  }
+}

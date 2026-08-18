@@ -39,7 +39,8 @@
       "hero.auto1": "반복 업무를", "hero.auto2": "프로그램에 맡깁니다.", "hero.rebuild1": "소스 없는 프로그램도", "hero.rebuild2": "새 코드로 다시 만듭니다.", "hero.product": "Windows 설치형 제품", "hero.productName": "ACS 사고 콘텐츠 스튜디오", "hero.realNote": "실제 화면과 구현 범위를<br/>함께 공개합니다", "hero.support": "소스가 없어도 화면과 동작, 파일과 데이터 흐름을 분석해 새 코드로 재구축합니다. 이후 기능 추가와 업데이트가 가능한 상태로 넘깁니다.",
       "trust.autoTitle": "자동화", "trust.autoText": "반복 작업을 실행 가능한 흐름으로 전환", "trust.rebuildTitle": "재구축", "trust.rebuildText": "소스가 없는 프로그램도 새 코드로 개발", "trust.realTitle": "실제 화면", "trust.realText": "작업 화면과 구현 범위를 함께 공개", "trust.monthTitle": "3개월", "trust.monthText": "실제 운영까지 이어지는 품질보증",
       "cases.title1": "말보다,", "cases.title2": "화면으로 보시는 게 빠릅니다.", "demos.title1": "궁금한 건,", "demos.title2": "직접 열어보는 편이 빠릅니다.", "demos.lead": "브라우저에서 확인할 수 있는 작업 화면입니다.",
-      "start.line1": "잘 짜인 기획서가 없어도", "start.line2": "함께 정리하며 시작할 수 있고,", "start.line3": "소스가 없는 프로그램도", "start.line4": "새 코드로 다시 만들 수 있습니다.", "project.screen": "프로젝트 화면", "project.detail": "상세 보기"
+      "start.line1": "잘 짜인 기획서가 없어도", "start.line2": "함께 정리하며 시작할 수 있고,", "start.line3": "소스가 없는 프로그램도", "start.line4": "새 코드로 다시 만들 수 있습니다.", "project.screen": "프로젝트 화면", "project.detail": "상세 보기",
+      "search.label": "프로젝트 검색", "search.placeholder": "제목, 기술 스택, 기능을 검색하세요", "search.clear": "검색어 지우기", "search.empty": "일치하는 프로젝트가 없습니다.", "search.result": "상세 보기", "search.demo": "라이브 데모"
     },
     en: {
       "nav.cases": "Case Studies", "nav.demos": "Live Demos", "nav.portfolio": "All Work", "nav.process": "Process", "nav.team": "Team",
@@ -47,7 +48,8 @@
       "hero.auto1": "Automate", "hero.auto2": "repetitive work.", "hero.rebuild1": "Rebuild software", "hero.rebuild2": "without source.", "hero.product": "Windows product", "hero.productName": "ACS Accident Content Studio", "hero.realNote": "Real screens and scope,<br/>shown up front", "hero.support": "Even when the source code is gone, we analyze screens, behavior, files, and data flow, then rebuild the software as maintainable new code.",
       "trust.autoTitle": "Automation", "trust.autoText": "Turn repeat work into executable flows", "trust.rebuildTitle": "Rebuild", "trust.rebuildText": "Recreate source-less software in new code", "trust.realTitle": "Real Screens", "trust.realText": "Show the actual UI and implementation scope", "trust.monthTitle": "3 Months", "trust.monthText": "Warranty through real operation",
       "cases.title1": "Less talk.", "cases.title2": "Screens make it faster.", "demos.title1": "Curious?", "demos.title2": "Open the work and see it.", "demos.lead": "Live work screens you can check in the browser.",
-      "start.line1": "Even without a polished brief,", "start.line2": "we can shape the work together,", "start.line3": "and source-less software", "start.line4": "can be rebuilt as new code.", "project.screen": "project screen", "project.detail": "details"
+      "start.line1": "Even without a polished brief,", "start.line2": "we can shape the work together,", "start.line3": "and source-less software", "start.line4": "can be rebuilt as new code.", "project.screen": "project screen", "project.detail": "details",
+      "search.label": "Find work", "search.placeholder": "Search titles, technologies, or features", "search.clear": "Clear search", "search.empty": "No matching projects found.", "search.result": "View details", "search.demo": "Live demo"
     },
     ja: {
       "nav.cases": "代表事例", "nav.demos": "ライブデモ", "nav.portfolio": "制作実績", "nav.process": "進行方式", "nav.team": "チーム",
@@ -55,7 +57,8 @@
       "hero.auto1": "反復業務を", "hero.auto2": "自動化します。", "hero.rebuild1": "ソースなしでも", "hero.rebuild2": "再構築します。", "hero.product": "Windows製品", "hero.productName": "ACS事故コンテンツスタジオ", "hero.realNote": "実画面と実装範囲を<br/>先に共有します", "hero.support": "ソースコードがなくても、画面・動作・ファイル・データの流れを分析し、保守できる新しいコードとして再構築します。",
       "trust.autoTitle": "自動化", "trust.autoText": "反復作業を実行可能な流れに変換", "trust.rebuildTitle": "再構築", "trust.rebuildText": "ソースのないソフトも新規コードで開発", "trust.realTitle": "実画面", "trust.realText": "画面と実装範囲を明確に公開", "trust.monthTitle": "3か月", "trust.monthText": "運用まで見据えた品質保証",
       "cases.title1": "説明より、", "cases.title2": "画面で見る方が早いです。", "demos.title1": "気になるなら、", "demos.title2": "直接開くのが一番です。", "demos.lead": "ブラウザで確認できる作業画面です。",
-      "start.line1": "整った企画書がなくても", "start.line2": "一緒に整理して始められます。", "start.line3": "ソースのないプログラムも", "start.line4": "新しいコードで作り直せます。", "project.screen": "プロジェクト画面", "project.detail": "詳細"
+      "start.line1": "整った企画書がなくても", "start.line2": "一緒に整理して始められます。", "start.line3": "ソースのないプログラムも", "start.line4": "新しいコードで作り直せます。", "project.screen": "プロジェクト画面", "project.detail": "詳細",
+      "search.label": "プロジェクト検索", "search.placeholder": "タイトル、技術、機能を検索", "search.clear": "検索をクリア", "search.empty": "該当するプロジェクトがありません。", "search.result": "詳細を見る", "search.demo": "ライブデモ"
     },
     es: {
       "nav.cases": "Casos", "nav.demos": "Demos", "nav.portfolio": "Trabajos", "nav.process": "Proceso", "nav.team": "Equipo",
@@ -63,7 +66,8 @@
       "hero.auto1": "Automatizamos", "hero.auto2": "trabajo repetitivo.", "hero.rebuild1": "Reconstruimos", "hero.rebuild2": "software sin fuente.", "hero.product": "Producto Windows", "hero.productName": "ACS Accident Content Studio", "hero.realNote": "Pantallas reales y alcance,<br/>claros desde el inicio", "hero.support": "Aunque falte el código fuente, analizamos pantallas, comportamiento, archivos y flujo de datos para reconstruir el software como código nuevo y mantenible.",
       "trust.autoTitle": "Automatización", "trust.autoText": "Convertimos tareas repetitivas en flujos ejecutables", "trust.rebuildTitle": "Reconstrucción", "trust.rebuildText": "Recreamos software sin código fuente", "trust.realTitle": "Pantallas reales", "trust.realText": "Mostramos la interfaz y el alcance real", "trust.monthTitle": "3 meses", "trust.monthText": "Garantía hasta operación real",
       "cases.title1": "Menos palabras.", "cases.title2": "Las pantallas lo explican mejor.", "demos.title1": "¿Tienes curiosidad?", "demos.title2": "Abre el trabajo y míralo.", "demos.lead": "Pantallas de trabajo que puedes revisar en el navegador.",
-      "start.line1": "Aunque no tengas un brief perfecto,", "start.line2": "podemos ordenar el proyecto contigo,", "start.line3": "y el software sin fuente", "start.line4": "puede renacer como código nuevo.", "project.screen": "pantalla del proyecto", "project.detail": "detalles"
+      "start.line1": "Aunque no tengas un brief perfecto,", "start.line2": "podemos ordenar el proyecto contigo,", "start.line3": "y el software sin fuente", "start.line4": "puede renacer como código nuevo.", "project.screen": "pantalla del proyecto", "project.detail": "detalles",
+      "search.label": "Buscar proyectos", "search.placeholder": "Buscar títulos, tecnologías o funciones", "search.clear": "Limpiar búsqueda", "search.empty": "No se encontraron proyectos.", "search.result": "Ver detalles", "search.demo": "Demo en vivo"
     }
   };
   const languageMeta = {
@@ -97,6 +101,7 @@
     updateStaticLanguage();
     renderFeaturedCases();
     renderPortfolioCards();
+    refreshProjectSearch();
     updateCaseMoreButton();
     updatePortfolioMoreButton();
     try { localStorage.setItem("suaveforge.language", currentLanguage); } catch (_) {}
@@ -113,9 +118,20 @@
     setLanguageMenu(false);
   });
 
-  const updateHeader = () => header?.classList.toggle("is-scrolled", window.scrollY > 16);
+  let headerScrolled = null;
+  let headerFrame = 0;
+  const updateHeader = () => {
+    headerFrame = 0;
+    const next = window.scrollY > 16;
+    if (next === headerScrolled) return;
+    headerScrolled = next;
+    header?.classList.toggle("is-scrolled", next);
+  };
+  const requestHeaderUpdate = () => {
+    if (!headerFrame) headerFrame = requestAnimationFrame(updateHeader);
+  };
   updateHeader();
-  window.addEventListener("scroll", updateHeader, { passive: true });
+  window.addEventListener("scroll", requestHeaderUpdate, { passive: true });
 
   const renderStack = (stack, className = "stack-chips", limit = 5) =>
     `<div class="${className}">${(stack || []).slice(0, limit).map((item) => `<span>${escapeHtml(item)}</span>`).join("")}</div>`;
@@ -143,11 +159,12 @@
           <button class="case-detail-button" type="button" data-open-project="${escapeHtml(project.id)}">${escapeHtml(t("cta.detail"))} <span>↗</span></button>
         </div>
         <button class="case-story-media" type="button" data-open-project="${escapeHtml(project.id)}" aria-label="${escapeHtml(project.title)} ${escapeHtml(t("project.detail"))}">
-          <img src="${escapeHtml(project.cover)}" alt="${escapeHtml(project.title)} ${escapeHtml(t("project.screen"))}" loading="${index === 0 ? "eager" : "lazy"}"/>
+          <img src="${escapeHtml(project.cover)}" alt="${escapeHtml(project.title)} ${escapeHtml(t("project.screen"))}" decoding="async" fetchpriority="${index === 0 ? "high" : "low"}" loading="${index === 0 ? "eager" : "lazy"}"/>
           <span class="case-story-caption">${escapeHtml(project.title)} <i>DETAIL ↗</i></span>
         </button>
       </article>`;
     }).join("");
+    document.dispatchEvent(new CustomEvent("suaveforge:featured-rendered"));
   };
 
   const caseMore = qs("[data-case-more]");
@@ -165,12 +182,18 @@
   });
 
   const portfolioTrack = qs("[data-portfolio-track]");
+  let portfolioReady = !("IntersectionObserver" in window);
   const renderPortfolioCards = () => {
     if (!portfolioTrack) return;
+    if (!portfolioReady) {
+      portfolioTrack.replaceChildren();
+      return;
+    }
+    portfolioTrack.classList.remove("is-motion-ready", "is-motion-active");
     portfolioTrack.innerHTML = projects.map((project, index) => `
       <article class="portfolio-card${index >= 6 ? " portfolio-card-more" : ""}" data-project-card>
         <button type="button" class="portfolio-figure" data-open-project="${escapeHtml(project.id)}" aria-label="${escapeHtml(project.title)} ${escapeHtml(t("project.detail"))}">
-          <img src="${escapeHtml(project.cover)}" alt="${escapeHtml(project.title)} ${escapeHtml(t("project.screen"))}" loading="lazy"/>
+          <img src="${escapeHtml(project.cover)}" alt="${escapeHtml(project.title)} ${escapeHtml(t("project.screen"))}" decoding="async" fetchpriority="low" loading="lazy"/>
           <span class="project-badge ${categoryClass(project.category)}">${escapeHtml(project.category)}</span>
         </button>
         <div class="portfolio-card-body">
@@ -184,6 +207,7 @@
           </div>
         </div>
       </article>`).join("");
+    document.dispatchEvent(new CustomEvent("suaveforge:portfolio-rendered"));
   };
 
   const portfolioMore = qs("[data-portfolio-more]");
@@ -198,6 +222,100 @@
     qsa(".portfolio-card-more", portfolioTrack).forEach((card) => card.classList.toggle("is-shown", !expanded));
     updatePortfolioMoreButton();
   });
+
+  const portfolioSection = portfolioTrack?.closest("#portfolio");
+  const projectSearchInput = qs("[data-project-search]");
+  const projectSearchClear = qs("[data-project-search-clear]");
+  const projectSearchSummary = qs("[data-project-search-summary]");
+  const projectSearchResults = qs("[data-project-search-results]");
+  const normalizeSearch = (value) => String(value || "")
+    .normalize("NFKC")
+    .toLocaleLowerCase()
+    .replace(/[^\p{L}\p{N}+#.]+/gu, " ")
+    .trim();
+  const projectSearchIndex = projects.map((project) => ({
+    project,
+    text: normalizeSearch([
+      project.id, project.title, project.short, project.headline, project.category,
+      project.kind, project.stack, project.features, project.scope, project.result
+    ].flat(Infinity).filter(Boolean).join(" "))
+  }));
+  let projectSearchFrame = 0;
+  let currentSearchResults = projects;
+
+  const formatProjectCount = (count) => ({
+    ko: `${count}개 프로젝트`,
+    en: `${count} projects`,
+    ja: `${count}件のプロジェクト`,
+    es: `${count} proyectos`
+  }[currentLanguage] || `${count} PROJECTS`);
+
+  function refreshProjectSearch() {
+    if (!projectSearchInput || !projectSearchResults || !projectSearchSummary) return;
+    projectSearchInput.placeholder = t("search.placeholder");
+    projectSearchClear?.setAttribute("aria-label", t("search.clear"));
+    projectSearchClear?.setAttribute("title", t("search.clear"));
+    const query = normalizeSearch(projectSearchInput.value);
+    const terms = query ? query.split(/\s+/).filter(Boolean) : [];
+    currentSearchResults = terms.length
+      ? projectSearchIndex.filter(({ text }) => terms.every((term) => text.includes(term))).map(({ project }) => project)
+      : projects;
+    const searching = terms.length > 0;
+    portfolioSection?.classList.toggle("is-searching", searching);
+    portfolioTrack?.setAttribute("aria-hidden", String(searching));
+    projectSearchResults.hidden = !searching;
+    if (projectSearchClear) projectSearchClear.hidden = !projectSearchInput.value;
+    projectSearchSummary.textContent = formatProjectCount(currentSearchResults.length);
+    if (!searching) {
+      projectSearchResults.replaceChildren();
+      return;
+    }
+    if (!currentSearchResults.length) {
+      projectSearchResults.innerHTML = `<p class="portfolio-search-empty">${escapeHtml(t("search.empty"))}</p>`;
+      return;
+    }
+    projectSearchResults.innerHTML = currentSearchResults.map((project) => `
+      <article class="portfolio-search-result">
+        <button type="button" data-open-project="${escapeHtml(project.id)}" aria-label="${escapeHtml(project.title)} ${escapeHtml(t("project.detail"))}">
+          <span class="portfolio-search-result-meta"><i>${escapeHtml(project.kind)}</i><b>${escapeHtml(project.date || "")}</b></span>
+          <strong>${escapeHtml(project.title)}</strong>
+          <small>${escapeHtml((project.stack || []).slice(0, 5).join(" · "))}</small>
+          <em>${escapeHtml(t("search.result"))} <span aria-hidden="true">↗</span></em>
+        </button>
+        ${project.url ? `<a href="${escapeHtml(project.url)}" target="_blank" rel="noopener">${escapeHtml(t("search.demo"))} <span aria-hidden="true">↗</span></a>` : ""}
+      </article>`).join("");
+  }
+
+  projectSearchInput?.addEventListener("input", () => {
+    cancelAnimationFrame(projectSearchFrame);
+    projectSearchFrame = requestAnimationFrame(refreshProjectSearch);
+  });
+  projectSearchInput?.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && projectSearchInput.value) {
+      event.stopPropagation();
+      projectSearchInput.value = "";
+      refreshProjectSearch();
+    } else if (event.key === "Enter" && currentSearchResults.length) {
+      event.preventDefault();
+      projectSearchResults?.querySelector("[data-open-project]")?.click();
+    }
+  });
+  projectSearchClear?.addEventListener("click", () => {
+    if (!projectSearchInput) return;
+    projectSearchInput.value = "";
+    refreshProjectSearch();
+    projectSearchInput.focus();
+  });
+
+  if (portfolioTrack && !portfolioReady) {
+    const portfolioRenderObserver = new IntersectionObserver(([entry]) => {
+      if (!entry.isIntersecting) return;
+      portfolioReady = true;
+      portfolioRenderObserver.disconnect();
+      renderPortfolioCards();
+    }, { rootMargin: "1200px 0px", threshold: 0 });
+    portfolioRenderObserver.observe(portfolioTrack);
+  }
 
   let savedLanguage = "ko";
   try { savedLanguage = localStorage.getItem("suaveforge.language") || "ko"; } catch (_) {}

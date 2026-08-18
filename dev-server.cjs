@@ -11,6 +11,7 @@ const types = {
   ".png": "image/png",
   ".jpg": "image/jpeg",
   ".jpeg": "image/jpeg",
+  ".webp": "image/webp",
   ".ico": "image/x-icon"
 };
 
@@ -40,6 +41,6 @@ http
       res.end(data);
     });
   })
-  .listen(4178, "127.0.0.1", () => {
-    console.log("SuaveForge noinfo static server: http://localhost:4178");
+  .listen(4177, "127.0.0.1", () => {
+    console.log("SuaveForge static server: http://localhost:4177");
   });
